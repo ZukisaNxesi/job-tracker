@@ -1,0 +1,75 @@
+/*LETS PAINT OUR NAV BAR*/
+body{
+	margin:0;
+	font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+.navbar {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2e7d32; /*Green*/
+	padding: 15px 25px;
+}
+.nav-left h1{
+	color:white;
+	margin:0;
+}
+
+.nav-right{
+	display:flex;
+	gap: 15px;
+	align-items:center;
+}
+
+.nav-right a {
+	color: #c8e6c9; /* light green-ish text */
+	text-decoration:none;
+	padding: 6px 10px;
+	border-radius: 6px;
+}
+.nav-right a.active{
+	background-color:white;
+	color: #2e7d32;
+}
+
+.nav-right button{
+	background-color: white;
+	color: #2e7d32;
+	border: none;
+	padding: 6px 12px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+/*PAINT SUMMARY CARDS*/
+
+.summary-section .container {
+	display:flex;
+	justify-content: space-between;
+	gap: 15px;
+	padding: 20px;
+}
+.card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 12px;
+	flex:1;
+	box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+	color: #1565c0;
+	margin-bottom: 10px;
+}
+
+.card p{
+	color: #64b5f6;
+	font-size: 18px;
+}
+/*Analytics section*/
+.analytics-section .container {
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+}
