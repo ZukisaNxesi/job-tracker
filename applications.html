@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Job Tracker  </title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+
+        <div class="nav-left">
+            <h1>Job Application Tracker</h1>
+        </div>
+
+        <div class="nav-right">
+            <a href="index.html">Overview</a>
+            <a href="applications.html" class="active">Job Applications</a>
+            <a href="settings.html">Settings</a>
+            <button>Sign Out</button>
+        </div>
+
+    </header>
+	<section class="page-header">
+		<h1>Job Applications</h1>
+		<p>Track and manage your job applications</p>
+	</section>
+	<section class="form-section">
+		<div class="form-container">
+		<form>
+						<div class="input-group">
+				
+							<label>Company Name </label>
+							<input type="text" name="company" placeholder="Enter company name">
+						</div>
+				
+						<div class="input-group">
+							<label>Position </label>
+								<input type="text" name="position" placeholder="Enter job position">
+						</div>
+				
+						<div class="input-group">
+							<label>Date</label>
+							<input type="date" name="date">
+						</div>
+						
+						<div class="input-group">
+							<label>Status</label>
+							<select name="status">
+								<option>Applied</option>
+								<option>Under Review</option>
+								<option>Interview</option>
+								<option>Rejected</option>
+								<option>Offer</option>						
+							</select>
+						</div>
+						<div class="input-group">
+							<label>Notes</label>
+							<textarea name="notes" placeholder="Add notes"></textarea>
+						</div>
+						<div class="input-group">
+						<button type="submit">Add Application</button>
+						</div>
+			
+		</form>
+		</div>
+	</section>
+</body>
+</html>
