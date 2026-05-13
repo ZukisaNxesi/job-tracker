@@ -138,3 +138,35 @@ body{
 .input-group button:hover {
     background-color: #256428;
 }
+.settings-section {
+    padding: 20px;
+}
+.settings-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.settings-container .card {
+    flex: 1;
+    min-width: 300px;
+}
+.settings-container .card h2 {
+    color: #1565c0;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group input {
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="file"] {
+    padding: 10px 0;
+}
+.settings-container button {
+    margin-top: 10px;
+}
+input[type="checkbox"] {
+    margin-right: 8px;
+}
